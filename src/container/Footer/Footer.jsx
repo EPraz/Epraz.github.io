@@ -43,7 +43,7 @@ const Footer = () => {
   return (
     <>
       <h2 className='head-text'>Take a coffe & chat with me</h2>
-      <p style={{fontSize:'.8em', }} className="p-text">Not connected to backend!!</p>
+      <p style={{fontSize:'.8em', }} className="p-text">Not connected to backend!! Number & Email Are Just Placeholders</p>
 
       <div className='app__footer-cards'>
         <div className='app__footer-card'>
