@@ -36,7 +36,7 @@ export const WorkData = [
         skills_used: 'Rest Framework, Axios, Tailwind, Redux',
         codeLink: 'https://github.com/EPraz/blog_dj_react',
         imgUrl: images.blog_django_react ,
-        tags: 'React_Django',
+        tags: 'react/django',
     },
     {
         id:"4",
@@ -45,7 +45,7 @@ export const WorkData = [
         skills_used: 'Rest Framework, Axios, Bootstrap',
         codeLink: 'https://github.com/EPraz/todo_django_react',
         imgUrl: images.todo_django_react ,
-        tags: 'React_Django',
+        tags: 'react/django',
     },
     {
         id:"5",
