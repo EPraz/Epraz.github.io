@@ -19,15 +19,15 @@ export const WorkData = [
         imgUrl: images.portfolio ,
         tags: 'React JS',
     },
-    {
-        id:"2",
-        title: 'Blog React',
-        description: 'A landing page inspired on a pinterest image, only homepage and articles pages are functional',
-        skills_used: 'Swiper, React Router Dom',
-        codeLink: 'https://github.com/EPraz/blog-website',
-        imgUrl: images.blog_react ,
-        tags: 'React JS',
-    },
+    // {
+    //     id:"2",
+    //     title: 'Blog React',
+    //     description: 'A landing page inspired on a pinterest image, only homepage and articles pages are functional',
+    //     skills_used: 'Swiper, React Router Dom',
+    //     codeLink: 'https://github.com/EPraz/blog-website',
+    //     imgUrl: images.blog_react ,
+    //     tags: 'React JS',
+    // },
    
     {
         id:"3",
