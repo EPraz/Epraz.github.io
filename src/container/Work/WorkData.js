@@ -36,7 +36,7 @@ export const WorkData = [
         skills_used: 'Rest Framework, Axios, Tailwind, Redux',
         codeLink: 'https://github.com/EPraz/blog_dj_react',
         imgUrl: images.blog_django_react ,
-        tags: 'React/Django',
+        tags: 'React_Django',
     },
     {
         id:"4",
@@ -45,7 +45,7 @@ export const WorkData = [
         skills_used: 'Rest Framework, Axios, Bootstrap',
         codeLink: 'https://github.com/EPraz/todo_django_react',
         imgUrl: images.todo_django_react ,
-        tags: 'React/Django',
+        tags: 'React_Django',
     },
     {
         id:"5",
@@ -54,7 +54,7 @@ export const WorkData = [
         skills_used: 'NextJS, Tailwind, Framer Motion',
         codeLink: 'https://github.com/EPraz/landing_nextjs',
         imgUrl: images.landing_nextjs ,
-        tags: 'Django',
+        tags: 'React JS',
     },
     {
         id:"6",
