@@ -43,6 +43,18 @@ import logo_portfolio from '../assets/logo_portfolio.png';
 import frontend from '../assets/frontend.png';
 import backend from '../assets/backend.png';
 import fullstack from '../assets/fullstack.png';
+import api_logo from '../assets/api_logo.png';
+import tailwind from '../assets/tailwind.png';
+import bootstrap from '../assets/bootstrap.png';
+
+import portfolio from '../assets/portfolio.png';
+import youtube_clone from '../assets/youtube_clone.png';
+import todo_django_react from '../assets/todo_django_react.png';
+import landing_nextjs from '../assets/landing_nextjs.png';
+import blog_react from '../assets/blog_react.png';
+import blog_django_react from '../assets/blog_django_react.png';
+import my_restaurant from '../assets/my_restaurant.png';
+import ecommerce from '../assets/ecommerce.png';
 
 export default {
   email,
@@ -86,4 +98,15 @@ export default {
   frontend,
   backend,
   fullstack,
+  api_logo,
+  tailwind,
+  bootstrap,
+  portfolio,
+  youtube_clone,
+  blog_django_react,
+  blog_react,
+  todo_django_react,
+  landing_nextjs,
+  my_restaurant,
+  ecommerce
 };

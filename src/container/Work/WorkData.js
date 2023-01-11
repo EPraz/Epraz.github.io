@@ -1,71 +1,79 @@
+import {images} from '../../constants'
+
 export const WorkData = [
     {
         id:"0",
-        title: 'Work Title',
-        description: 'Idea Project / Resourcecs Used',
-        projectLink: 'Link to the project',
-        codeLink: 'Link to the raw code',
-        imgUrl: require('../../assets/about01.png').default,
+        title: 'Youtube Clone',
+        description: 'A clone of youtube, using Youtube API from RapidAPI',
+        skills_used: 'Axios, Material UI, API from RapidAPI, React Router Dom',
+        codeLink: 'https://github.com/EPraz/youtube_clone',
+        imgUrl: images.youtube_clone ,
         tags: 'React JS',
-
     },
     {
         id:"1",
-        title: 'Work Title',
-        description: 'Idea Project / Resourcecs Used',
-        projectLink: 'Link to the project',
-        codeLink: 'Link to the raw code',
-        imgUrl: require('../../assets/about01.png').default,
-        tags: 'Mobile App',
-    }
+        title: 'This Portfolio',
+        description: 'This amazing portfolio, to share with you',
+        skills_used: 'SASS, HOC(High Order Component), Framer Motion',
+        codeLink: 'https://github.com/EPraz/Epraz.github.io',
+        imgUrl: images.portfolio ,
+        tags: 'React JS',
+    },
+    {
+        id:"2",
+        title: 'Blog React',
+        description: 'A landing page inspired on a pinterest image, only homepage and articles pages are functional',
+        skills_used: 'Swiper, React Router Dom',
+        codeLink: 'https://github.com/EPraz/blog-website',
+        imgUrl: images.blog_react ,
+        tags: 'React JS',
+    },
+   
+    {
+        id:"3",
+        title: 'Blog Django/React',
+        description: 'A complete Django/React blog, where Django provides API and React the frontend',
+        skills_used: 'Rest Framework, Axios, Tailwind',
+        codeLink: 'https://github.com/EPraz/blog_dj_react',
+        imgUrl: images.blog_django_react ,
+        tags: 'React/Django',
+    },
+    {
+        id:"4",
+        title: 'ToDo App',
+        description: "Classic ToDo App, where the tasks are saved on Django API's",
+        skills_used: 'Rest Framework, Axios, Bootstrap',
+        codeLink: 'https://github.com/EPraz/todo_django_react',
+        imgUrl: images.todo_django_react ,
+        tags: 'React/Django',
+    },
+    {
+        id:"5",
+        title: 'Landing NextJS',
+        description: 'Landing Page using NextJS with ReactJs and Tailwind',
+        skills_used: 'NextJS, Tailwind, Framer Motion',
+        codeLink: 'https://github.com/EPraz/landing_nextjs',
+        imgUrl: images.landing_nextjs ,
+        tags: 'Django',
+    },
+    {
+        id:"6",
+        title: 'My Restaurant',
+        description: 'Full Django restaurant website, with authentication, customizable Menu and Inventory',
+        skills_used: 'Authentication, Class View, CRUD',
+        codeLink: 'https://github.com/EPraz/MyRestaurant',
+        imgUrl: images.my_restaurant ,
+        tags: 'Django',
+    },
+    {
+        id:"7",
+        title: 'Ecommerce',
+        description: 'Full Django ecommerce website, with customizable Products, Cart/Checkout',
+        skills_used: 'CRUD, Function View',
+        codeLink: 'https://github.com/EPraz/ecommerce',
+        imgUrl: images.ecommerce ,
+        tags: 'Django',
+    },
 ]
 
 
-
-export const Dec00 = [
-    {
-        id:'0',
-        name: 'Shelby Mustang',
-        modelo: '1965',
-        description: "For 1965, the Shelby Mustang was born, available only in a newly introduced fastback body version with its swept-back rear glass and distinctive ventilation louvers. In 1965 they built 15,079 Mustangs that featured the GT Equipment Group.",
-        // image: require('../../images/img/1965_test.png').default,
-        alt: 'Model of 1965',
-        year: '1965'
-    },
-    {
-        id:'1',
-        name: 'MUSTANG K CODE',
-        modelo: '1966',
-        description: "From 1965 to 1967 Ford also manufactured what is referred to as the K Code Mustang or the 'Hi-Po'. The name K Code comes from the letter K that appears in all original K Code VINs and Hi-Po, of course, comes from the term 'High Performance'.",
-        // image: require('../../images/img/1966.jpg').default,
-        alt: 'Model of 1966',
-        year: '1966'
-    },
-    {
-        id:'2',
-        name: 'Shelby Mustang GT500',
-        modelo: '1967',
-        description: "Very few cars achieve infamy—by name—through a movie title. Possibly the most famous is the 1967 Shelby Mustang GT500 fastback that Nicholas Cage drove in the 2000 movie Gone in 60 Seconds. “Eleanor” was the car Cage's character coveted and finally nabbed in the story's big heist",
-        // image: require('../../images/img/1967.jpg').default,
-        alt: 'Model of 1967',
-        year: '1967'
-    },
-    {
-        id:'3',
-        name: 'Bullitt',
-        modelo: '1968',
-        description: "The original 1968 'Bullitt' Mustang that starred in the Steve McQueen film of the same name sold for $3.4 million at the Mecum auction today. The sale makes it the most valuable Ford Mustang ever and further enhances the car's already legendary status.",
-        // image: require('../../images/img/1968.jpg').default,
-        alt: 'Model of 1968',
-        year: '1968'
-    },
-    {
-        id:'4',
-        name: '1969 MUSTANG BOSS 429',
-        modelo: '1969',
-        description: "The Boss 429, quite literally, is the boss! The Boss 429 is the largest engine that Ford ever offered, and it was available in the 1969 and 1970 Ford Mustang models.",
-        // image: require('../../images/img/1969.jpg').default,
-        alt: 'Model of 1969',
-        year: '1969'
-    }
-]

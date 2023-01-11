@@ -20,16 +20,28 @@ export const SkillsData = [
         imgUrl: images.sass,
     },
     {
+        id:'7',
+        name:'Tailwind',
+        bgColor:'#edf2f8',
+        imgUrl: images.tailwind,
+    },
+    {
+        id:'9',
+        name:'Bootstrap',
+        bgColor:'#edf2f8',
+        imgUrl: images.bootstrap,
+    },
+    {
         id:'3',
         name:'JS',
         bgColor:'#edf2f8',
         imgUrl: images.javascript,
     },
     {
-        id:'4',
-        name:'React',
+        id:'8',
+        name:'API',
         bgColor:'#edf2f8',
-        imgUrl: images.react,
+        imgUrl: images.api_logo,
     },
     {
         id:'5',
@@ -37,30 +49,23 @@ export const SkillsData = [
         bgColor:'#edf2f8',
         imgUrl: images.python,
     },
+   
+   
+   
+    {
+        id:'4',
+        name:'React',
+        bgColor:'#edf2f8',
+        imgUrl: images.react,
+    },
     {
         id:'6',
         name:'Django',
         bgColor:'#edf2f8',
         imgUrl: images.django,
     },
-    // {
-    //     id:'7',
-    //     name:'HTML',
-    //     bgColor:'#edf2f8',
-    //     imgUrl: images.html,
-    // },
-    // {
-    //     id:'8',
-    //     name:'HTML',
-    //     bgColor:'#edf2f8',
-    //     imgUrl: images.html,
-    // },
-    // {
-    //     id:'9',
-    //     name:'HTML',
-    //     bgColor:'#edf2f8',
-    //     imgUrl: images.html,
-    // },
+
+  
 ]
 
 

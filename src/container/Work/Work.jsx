@@ -12,6 +12,8 @@ const Work = () => {
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 })
   const [works, setWorks] = useState([])
   const [filterWork, setFilterWork] = useState([])
+  const [activeClick, setActiveClick] = useState(false)
+
 
   useEffect(() => {
     setFilterWork(WorkData)
@@ -21,12 +23,12 @@ const Work = () => {
 
   const handleWorkFilter = (item) => {
     setActiveFilter(item);
-    setAnimateCard([{y:100, opacity: 0}]);
+    setAnimateCard([{ y: 100, opacity: 0 }]);
 
     setTimeout(() => {
-      setAnimateCard([{y:0, opacity:1}]);
+      setAnimateCard([{ y: 0, opacity: 1 }]);
 
-      if( item === 'All') {
+      if (item === 'All') {
         setFilterWork(works);
       } else {
         setFilterWork(works.filter((work) => work.tags.includes(item)))
@@ -72,7 +74,7 @@ const Work = () => {
                 className="app__work-hover app__flex"
 
               >
-                <a href={work.projectLink} target="_blank" rel="noreferrer">
+                <a onClick={() => {setActiveClick((prevActiveClick) => !prevActiveClick)}}>
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
                     whileHover={{ scale: [1, 0.9] }}
@@ -99,7 +101,14 @@ const Work = () => {
             <div className="app__work-content app__flex">
               <h4 className="bold-text">{work.title}</h4>
               <p className="p-text" style={{ marginTop: 10 }}>{work.description}</p>
-
+              {activeClick &&
+                <ul>
+                  <p>Remarkable Skills Used:</p>
+                  {work.skills_used.split(",").map((word, index) => (
+                    <li key={index}>{word}</li>
+                  ))}
+                </ul>
+              }
               <div className="app__work-tag app__flex">
                 <p className="p-text">{work.tags}</p>
               </div>
@@ -115,7 +124,7 @@ const Work = () => {
 
 // export default AppWrap(Work, 'work')
 export default AppWrap(
-  MotionWrap(Work, 'app__works'), 
+  MotionWrap(Work, 'app__works'),
   'work',
   'app__primarybg'
 )

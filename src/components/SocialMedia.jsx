@@ -1,20 +1,19 @@
 import React from 'react'
-import {BsTwitter, BsInstagram } from 'react-icons/bs'
 import {BsLinkedin, BsGithub } from 'react-icons/bs'
-import { FaFacebookF } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 const SocialMedia = () => {
   return (
     <div className='app__social'>
-        <div>
+        <a href="https://www.linkedin.com/in/edwin-pile-583652234" target="_blank" rel="noopener noreferrer">
             <BsLinkedin />
-        </div>
-        <div>
+        </a>
+        <a href="https://github.com/EPraz" target="_blank" rel="noopener noreferrer">
             <BsGithub />
-        </div>
-        <div>
+        </a>
+        {/* <Link to="https://github.com/EPraz" target="_blank" rel="noopener noreferrer">
             <BsInstagram />
-        </div>
+        </Link> */}
     </div>
   )
 }
