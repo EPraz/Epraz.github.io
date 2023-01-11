@@ -33,7 +33,7 @@ export const WorkData = [
         id:"3",
         title: 'Blog Django/React',
         description: 'A complete Django/React blog, where Django provides API and React the frontend',
-        skills_used: 'Rest Framework, Axios, Tailwind',
+        skills_used: 'Rest Framework, Axios, Tailwind, Redux',
         codeLink: 'https://github.com/EPraz/blog_dj_react',
         imgUrl: images.blog_django_react ,
         tags: 'React/Django',
